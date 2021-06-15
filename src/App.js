@@ -5,16 +5,16 @@ function App() {
     <div className="App">
       <div className="container-form">
         <div class="field">
-          <label class="label">Name</label>
+          <label class="label">Nombre</label>
           <div class="control">
             <input class="input" type="text" placeholder="Text input"/>
           </div>
         </div>
 
         <div class="field">
-          <label class="label">Username</label>
+          <label class="label">CI</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input is-success" type="text" placeholder="Text input" value="bulma"/>
+            <input class="input is-success" type="number" placeholder="Text input"  />
             <span class="icon is-small is-left">
               <i class="fas fa-user"></i>
             </span>
@@ -28,7 +28,7 @@ function App() {
         <div class="field">
           <label class="label">Email</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input is-danger" type="email" placeholder="Email input" value="hello@"/>
+            <input class="input is-danger" type="email" placeholder="Email input" />
             <span class="icon is-small is-left">
               <i class="fas fa-envelope"></i>
             </span>
@@ -40,43 +40,22 @@ function App() {
         </div>
 
         <div class="field">
-          <label class="label">Subject</label>
+          <label class="label">tipo de cuenta</label>
           <div class="control">
             <div class="select">
               <select>
-                <option>Select dropdown</option>
-                <option>With options</option>
+                <option>cliente</option>
+                <option>empleado</option>
+                <option>administrador</option>  
               </select>
             </div>
           </div>
         </div>
 
         <div class="field">
-          <label class="label">Message</label>
+          <label class="label">descripcion</label>
           <div class="control">
             <textarea class="textarea" placeholder="Textarea"></textarea>
-          </div>
-        </div>
-
-        <div class="field">
-          <div class="control">
-            <label class="checkbox">
-              <input type="checkbox"/>
-              I agree to the <a href="#">terms and conditions</a>
-            </label>
-          </div>
-        </div>
-
-        <div class="field">
-          <div class="control">
-            <label class="radio">
-              <input type="radio" name="question"/>
-              Yes
-            </label>
-            <label class="radio">
-              <input type="radio" name="question"/>
-              No
-            </label>
           </div>
         </div>
 
